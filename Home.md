@@ -1,4 +1,4 @@
-#EDOPro
+# EDOPro
 
 EDOPro is the bleeding-edge fork of the YGOPro core, an automated scripting engine for the Yu-Gi-Oh! Official Card Game. It comes with a sample GUI.
 
