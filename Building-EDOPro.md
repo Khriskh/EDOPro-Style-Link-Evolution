@@ -64,6 +64,8 @@ If you're building with DirectX, the SDK may not have been added to the include 
 
 Well, after navigating through this hell for hours, you are finally ready to build EDOPro. Build the entire solution in Visual Studio ~and come cry to us on Discord when it inevitably fails somewhere~
 
+OLD notes: If you are on windows using Visual Studio, and you used premake4, first right click on ygopro in the solution explorer, and then set it as startup project. To build with Visual Studio click on build->build solution, or click local windows debugger that will first compile the program then launch it. On other systems, go with the terminal in the build folder, then run make config=release to build the static program.
+
 ## 7) Running your build
 
 Crying yet after the number of hours as there are steps in this? Behold the wonder of open source!
