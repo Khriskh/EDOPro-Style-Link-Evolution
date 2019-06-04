@@ -41,14 +41,14 @@ PS> .\vcpkg install libgit2 curl nlohmann-json
 
 ## 4) Create the project files
 
-If you're not building with DirectX, add `no-direct3d` to `premake5.lua` as a parameter (@edo9300 how?)
-
 Run the following commands from the command line in the `ygopro` folder.
 
 ` premake5 gmake ` if you're not using Visual Studio
 
 ` premake5 vs* ` (with the current edition of Visual Studio installed on your system)
 there are also premake4 scripts that are synced with the premake5 ones to use on systems where premake5 isn't availabe, or just as preference, but note that with visual studio builds, the max edition supported by those scripts is 2010.
+
+Visual Studio without DirectX: `premake5 vs* --no-direct3d`
 
 This generates `*.sln` and `*.vcxproj` files into `build`. Open `ygo.sln` in Visual Studio.
 
