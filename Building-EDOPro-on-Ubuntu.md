@@ -3,9 +3,9 @@ In theory, this should work on Debian, but this has not been tested. Tested on U
 # Quickstart
 I really hope you have Git.
 ```
-git clone https://github.com/edo9300/ygopro.git edopro`
-git submodule update --init --recursive`
+git clone https://github.com/edo9300/ygopro.git edopro
 cd edopro
+git submodule update --init --recursive
 ./install-dependencies-ubuntu.sh
 ./premake5 gmake
 make -Cbuild
