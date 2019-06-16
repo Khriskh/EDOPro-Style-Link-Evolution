@@ -2,16 +2,36 @@ In theory, this should work on Debian, but this has not been tested. Tested on U
 
 # Quickstart
 `git clone https://github.com/edo9300/ygopro.git edopro`
+
+`git submodule update --init --recursive`
+
 `cd edopro`
+
 `./install-dependencies-ubuntu.sh`
+
 `./premake5 gmake`
+
+`make -Cbuild`
+
+# Rebuilding
+
+`make -Cbuild clean`
+
+`rm -rf build`
+
+`git pull`
+
+`git submodule update --init --recursive`
+
+`./premake5 gmake`
+
 `make -Cbuild`
 
 # Post-build deploy
 TODO
 
 # Manually
-A good practice is to stay up-to-date! Run `sudo apt-get update && sudo apt-get upgrade`
+A good practice is to stay up-to-date! Run `sudo apt-get update && sudo apt-get upgrade`. This will also ~~hopefully~~ bring your `apt` dependencies up-to-date.
 
 `premake5` is used to generate makefiles. You can also install it in `/bin` or anywhere in `PATH` instead if you'd like.
 
