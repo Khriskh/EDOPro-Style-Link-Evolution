@@ -39,7 +39,7 @@ List of packages to retrieve from `apt`: `build-essential p7zip-full libevent-de
 
 `libcurl4-openssl-dev libgit2-dev nlohmann-json3-dev` are new dependencies needed by EDOPro. Note that the latest `nlohmann-json3-dev` is only available on the `eoan` Ubuntu repository, so the prebuild script adds that repository temporarily to retrieve it (and then takes it out or we break `apt-get` for other packages). `nlohmann-json-dev` only provides version 2 and we require version 3.
 
-`irrKlang` is also a core dependency but is only available by the download link. To install by hand, you can copy that portion of the script and use your favourite extraction tool (more below). Don't forget to move the `.so` files to the build and deploy directories! `libasound2` is used by irrKlang for some reason (needs confirmation).
+`irrKlang` is also a core dependency but is only available [here](https://www.ambiera.com/irrklang/downloads.html). To install by hand, you can copy that portion of the script and use your favourite extraction tool (more below). Don't forget to move the `.so` files to the build and deploy directories! `libasound2` is used by irrKlang for some reason (needs confirmation).
 
 Technically, you don't need `p7zip-full`; `unzip` will do, but 7-Zip is far more powerful. For `unzip`, to extract irrKlang, do `unzip -uo irrKlang-64bit-1.6.0.zip` instead.
  
