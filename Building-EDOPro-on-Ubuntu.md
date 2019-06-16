@@ -27,7 +27,7 @@ TODO
 # Manually getting and updating dependencies
 A good practice is to stay up-to-date! Run `sudo apt-get update && sudo apt-get upgrade`. This will also ~~hopefully~~ bring your `apt` dependencies up-to-date.
 
-`premake5` is used to generate makefiles. You can also install it in `/bin` or anywhere in `PATH` instead if you'd like.
+`premake5` is used to generate makefiles. You can also install it in `/bin` or anywhere in `PATH` instead if you'd like. If you do this, obviously do `premake5` instead of `./premake5` whereever you see it.
 
 List of packages to retrieve from `apt`: `build-essential p7zip-full libevent-dev libfmt-dev libfreetype6-dev libirrlicht-dev liblua5.3-dev libsqlite3-dev libgl1-mesa-dev libglu-dev libcurl4-openssl-dev libgit2-dev libasound2 nlohmann-json3-dev`
 
