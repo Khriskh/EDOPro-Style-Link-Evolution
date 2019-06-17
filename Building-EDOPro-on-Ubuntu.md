@@ -7,7 +7,7 @@ git clone https://github.com/edo9300/ygopro.git edopro
 cd edopro
 git submodule update --init --recursive
 ./install-dependencies-ubuntu.sh
-./premake5 gmake
+./premake5 gmake2
 make -Cbuild
 ```
 
@@ -17,7 +17,7 @@ make -Cbuild clean
 rm -rf build
 git pull
 git submodule update --init --recursive
-./premake5 gmake
+./premake5 gmake2
 make -Cbuild
 ```
 
