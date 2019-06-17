@@ -89,8 +89,3 @@ Make a new folder elsewhere and put all the `*.dll`s and `ygopro.exe` into it. A
 ## 8) Actually running your build
 
 Bless! Double-click `ygopro.exe` and pray. If it errors, check `error.log` and ~complain to us on Discord~.
-
-
-# Linux
-
-TODO
