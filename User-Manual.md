@@ -20,11 +20,15 @@ Xyz materials:
 * Black = default, Blue = the owner of the Xyz Material is different from its controller
 
 ### Sequence:
-* Monster Zone: 1~5, starting from the left hand side.
-* Spell & Trap Zone: 1~5, starting from the left hand side.
-* Field Zone: 6
-* Pendulum Zone: 7~8, starting from the left hand side.
-* The others: 1~n, starting from the bottom.
+* Main Monster Zone: 0~4, starting from the left hand side.
+* Extra Monster Zone: 5~6, starting from the left hand side.
+* Spell & Trap Zone: 0~4, starting from the left hand side.
+* Field Zone: 5
+* Pendulum Zone: 0~1, starting from the left hand side (when used with LOCATION_PZONE).
+* separated pendulum zones: 6~7
+* joined with szone: 0, 4
+* joined with szone + speed duel: 1, 3
+* The others: 0~n, starting from the bottom.
 
 ### Deck edit page:
 * All numeric textboxes: They support >, =, <, >=, <= signs.
