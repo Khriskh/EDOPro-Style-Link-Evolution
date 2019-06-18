@@ -1,7 +1,7 @@
-In theory, this should work on Debian, but this has not been tested. Tested on Ubuntu 18.04 bionic.
+In theory, this should work on Debian, but this has not been tested. Tested on Ubuntu 16.04 Xenial and 18.04 Bionic.
 
 # Quickstart
-I really hope you have Git.
+I really hope you have Git and `curl`. If you don't know what `apt` is either, this guide is not for you.
 ```bash
 git clone https://github.com/edo9300/ygopro.git edopro
 cd edopro
@@ -29,7 +29,7 @@ A good practice is to stay up-to-date! Run `sudo apt-get update && sudo apt-get 
 
 <code>[premake5](https://github.com/premake/premake-core/wiki/Using-Premake)</code> is used to generate makefiles. [You can also install it](https://premake.github.io/download.html#v5) in `/usr/local/bin` or anywhere in `PATH` instead if you'd like. If you do this, obviously do `premake5` instead of `./premake5` whereever you see it.
 
-List of packages to retrieve from `apt`: `build-essential p7zip-full libevent-dev libfmt-dev libfreetype6-dev libirrlicht-dev liblua5.3-dev libsqlite3-dev libgl1-mesa-dev libglu-dev libcurl4-openssl-dev libgit2-dev libasound2 nlohmann-json3-dev`
+List of packages to retrieve from `apt`: `build-essential p7zip-full libevent-dev libfmt-dev libfreetype6-dev libirrlicht-dev liblua5.3-dev libsqlite3-dev libgl1-mesa-dev libglu-dev libgit2-dev libasound2 nlohmann-json3-dev`
 
 `build-essential` is for your [GCC C++ compiler](https://gcc.gnu.org/) and [Make](https://www.gnu.org/software/make/).
 
@@ -37,7 +37,9 @@ List of packages to retrieve from `apt`: `build-essential p7zip-full libevent-de
 
 <code>[libgl1-mesa-dev](https://www.mesa3d.org/) [libglu-dev](https://www.opengl.org/resources/libraries/)</code> are used on Linux for graphics, i.e. OpenGL.
 
-<code>[libcurl4-openssl-dev](https://github.com/curl/curl) [libgit2-dev](https://github.com/libgit2/libgit2) [nlohmann-json3-dev](https://github.com/nlohmann/json)</code> are new dependencies needed by EDOPro. Note that the latest `nlohmann-json3-dev` is only available on the [eoan Ubuntu repository](https://packages.ubuntu.com/search?keywords=nlohmann-json3-dev), so the prebuild script adds that repository temporarily to retrieve it (and then takes it out or we break `apt-get` for other packages). `nlohmann-json-dev` [only provides version 2](https://packages.ubuntu.com/search?keywords=nlohmann-json-dev) and we require version 3.
+<code>[libgit2-dev](https://github.com/libgit2/libgit2) [nlohmann-json3-dev](https://github.com/nlohmann/json)</code> are new dependencies needed by EDOPro. 
+<code>[libcurl4-dev](https://github.com/curl/curl)</code> is also a dependency but `libcurl4-gnutls-dev` is installed already by `libgit2-dev`.
+Note that the latest `nlohmann-json3-dev` (and `libfmt-dev`) is only available on the [eoan Ubuntu repository](https://packages.ubuntu.com/search?keywords=nlohmann-json3-dev), so the prebuild script adds that repository temporarily to retrieve it (and then takes it out or we break `apt-get` for other packages). `nlohmann-json-dev` [only provides version 2](https://packages.ubuntu.com/search?keywords=nlohmann-json-dev) and we require version 3.
 
 `irrKlang` is also a core dependency but is only available [here](https://www.ambiera.com/irrklang/downloads.html). To install by hand, you can copy that portion of the script and use your favourite extraction tool (more below). Don't forget to move the `.so` files to the build and deploy directories! `libasound2` is used by irrKlang for some reason (needs confirmation).
 
