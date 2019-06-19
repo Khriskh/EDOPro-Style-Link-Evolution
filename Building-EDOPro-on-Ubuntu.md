@@ -25,10 +25,11 @@ make -Cbuild
 ```
 
 # Post-build deploy
+This strips debugging symbols from only `release` and puts everything you need into `deploy/`. Fonts are missing!
 ```bash
 ./build-support/deploy-ubuntu.sh
 ```
-Run deploy/ygopro.
+To deploy a `debug` build, set `BUILD_CONFIG=debug`. Debugging symbols will not be stripped.
 
 # Manually getting and updating dependencies
 A good practice is to stay up-to-date! Run `sudo apt-get update && sudo apt-get upgrade`. This will also ~~hopefully~~ bring your `apt` dependencies up-to-date.
