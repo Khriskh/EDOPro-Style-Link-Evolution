@@ -25,7 +25,7 @@ make -Cbuild
 ```
 
 # Post-build deploy
-This strips debugging symbols from only `release` and puts everything you need into `deploy/`. Fonts are missing!
+This strips debugging symbols from only `release` and puts everything you need into `deploy/`. Fonts are missing and this will fail to start! Sounds are also missing but this is not fatal.
 ```bash
 ./build-support/deploy-ubuntu.sh
 ```
