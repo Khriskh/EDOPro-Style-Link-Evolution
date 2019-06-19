@@ -1,4 +1,4 @@
-In theory, this should work on Debian, but this has not been tested. Tested on Ubuntu 16.04 Xenial and 18.04 Bionic. You may not need to build dependencies from source on newer distros.
+In theory, this should work on Debian, but this has not been tested. Tested on Ubuntu 16.04 Xenial and 18.04 Bionic. You may not need to build dependencies from source on newer distros. 64-bit only for now
 
 # Quickstart
 I really hope you have Git and `curl`. If you don't know what `apt` is either, this guide is not for you.
