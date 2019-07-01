@@ -1,5 +1,3 @@
-# Windows
-
 ## 1) Prerequisites
 - Git
 - Visual Studio 2015 Update 3 or newer with Visual C++ compilers installed 
