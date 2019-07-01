@@ -1,0 +1,1 @@
+Tested on Windows 10, Visual Studio 2017 Community and Visual Studio 2019 Enterprise.
