@@ -8,12 +8,6 @@ Tested on Windows 10, Visual Studio 2017 Community and Visual Studio 2019 Enterp
 
 Restart your computer after installing Visual Studio or DirectX SDK.
 
-
-# vcpkg
-Skip this section if you don't know what the heading is
-
-Most dependencies for EDOPro will be retrieved from vcpkg. If you prefer to set this up yourself, you can clone it from [here](https://github.com/microsoft/vcpkg). In this case, set `VCPKG_ROOT` to the path you install vcpkg at before running `install-windows-vcpkg.sh`, or install `freetype libevent lua[cpp] sqlite3 fmt curl libgit2 nlohmann-json` for static linking yourself.
-
 # Quickstart
 Clone the repository and open a Git Bash terminal there. Run the following
 ```bash
@@ -32,4 +26,9 @@ This puts everything you need into `deploy/`. Fonts are missing and this might f
 ./build-support/deploy-windows.sh 32
 ```
 To deploy a debug build, set `BUILD_CONFIG=debug`.
+
+# vcpkg
+Most dependencies for EDOPro will be retrieved from vcpkg. If you prefer to set this up yourself, you can clone it from [here](https://github.com/microsoft/vcpkg). In this case, set `VCPKG_ROOT` to the path you install vcpkg at before running `install-windows-vcpkg.sh`, or install `freetype libevent lua[cpp] sqlite3 fmt curl libgit2 nlohmann-json` for static linking yourself.
+
+TODO explain dependencies
 
