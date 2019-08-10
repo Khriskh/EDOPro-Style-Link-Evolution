@@ -4,7 +4,7 @@ Tested on macOS Mojave 10.14.5. A bug with macOS 10.14 prevents graphics from sh
 ```bash
 git clone https://github.com/edo9300/ygopro.git edopro
 cd edopro
-git submodule update --init --recursive
+git submodule update --init --recursive ocgcore
 ./build-support/install-macOS-brew.sh
 ./build-support/install-macOS-src.sh
 ./build-support/install-macOS-bin.sh
