@@ -5,7 +5,7 @@ I really hope you have Git and `curl`. If you don't know what `apt` is either, t
 ```bash
 git clone https://github.com/edo9300/ygopro.git edopro
 cd edopro
-git submodule update --init --recursive
+git submodule update --init --recursive ocgcore
 ./build-support/install-ubuntu-apt.sh
 ./build-support/install-ubuntu-src.sh
 ./build-support/install-ubuntu-bin.sh
