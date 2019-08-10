@@ -11,7 +11,7 @@ Restart your computer after installing Visual Studio or DirectX SDK.
 # Quickstart
 Clone the repository and open a Git Bash terminal there. Run the following
 ```bash
-git submodule update --init --recursive
+git submodule update --init --recursive ocgcore
 ./build-support/install-windows-bin.sh
 ./build-support/install-windows-vcpkg.sh
 ./premake5.exe vs2019 # or your version of Visual Studio
