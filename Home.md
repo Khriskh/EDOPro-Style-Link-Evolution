@@ -2,8 +2,8 @@ EDOPro is one of the bleeding-edge forks of the [YGOPro client](https://github.c
 
 Due to many recent changes in this client and its [core](https://github.com/edo9300/ygopro-core), it is incompatible with any other simulator not based off this fork.
 
-To build the entire client, follow the numbered steps in the sidebar!
+This project is maintained by edo9300, DyXel, and kevinlul. Reach out to edo9300#9332 or DyXel#4444 on Discord to work with us and contribute! We welcome all support and contributions.
 
-TODO EXPLAIN TEAM, PURPOSE
+To build the entire client for yourself, follow the numbered steps in the sidebar.
 
-TODO EXPLAIN HOW TO BUILD CORE INDEPENDENTLY
+TODO: explain how to build the core independently.
