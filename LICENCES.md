@@ -12,5 +12,4 @@ nlohmann-json | MIT
 sqlite3 | public domain
 --- | ---
 ygopro-core | MIT
-ygopro-scripts | GPLv2
 ygopro | GPLv2
