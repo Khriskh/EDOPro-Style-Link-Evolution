@@ -2,7 +2,7 @@ Component | Licence
 --- | ---
 libcurl | effectively BSD-3
 libevent | BSD-3
-fmt | BSD-2
+fmt | MIT
 freetype | GPLv2 or FTL(BSD with credit)
 libgit2 | GPLv2 with linking exception
 irrKlang32 | The irrKlang License (😠)
