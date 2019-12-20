@@ -7,3 +7,4 @@ This project is maintained by edo9300, DyXel, and kevinlul. Reach out to edo9300
 To build the entire client for yourself, follow the numbered steps in the sidebar.
 
 TODO: explain how to build the core independently.
+TODO: describe build process with Discord RPC and with sound backends
