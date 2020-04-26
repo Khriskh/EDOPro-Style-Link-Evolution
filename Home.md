@@ -10,3 +10,5 @@ TODO: explain how to build the core independently.
 
 TODO: describe build process with Discord RPC
 TODO: describe build process with sound backends
+
+N.B.: documentation is kind of outdated - sorry but I have limited time
