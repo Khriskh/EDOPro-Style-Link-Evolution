@@ -4,4 +4,4 @@
 
 Documentation by kevinlul
 
-Reach out to edo9300#9332 or DyXel#0161 on Discord to work with us and contribute!
+Reach out to KODER#9280 on Discord to work with us and contribute!
